@@ -1,0 +1,13 @@
+/*
+В первой таблице(authors) два столбца [ID, author]
+Во второй (books) [ID,name_book,id_author,сo-author]
+*/
+SELECT `author`,COUNT(*)
+FROM(
+SELECT `authors`.`initials`as `author`
+FROM authors
+UNION ALL
+SELECT `сo-author`
+FROM books) t
+GROUP by `author`
+HAVING COUNT(*)>7

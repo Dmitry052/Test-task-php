@@ -1,0 +1,10 @@
+ [
+	{"type":"circle","radius":6},
+	{"type":"rectangle","a":7,"b":5},
+	{"type":"triangle","a":3,"b":5,"c":5},
+	{"type":"rectangle","a":6,"b":8},
+	{"type":"triangle","a":4,"b":5,"c":6},
+	{"type":"circle","radius":7}
+]
+
+
